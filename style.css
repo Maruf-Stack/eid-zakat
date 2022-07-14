@@ -77,3 +77,82 @@
     font-weight: 500;
     color: rgba(0, 0, 0, 0.719);
 }
+
+.help {
+    margin-top: 100px;
+}
+
+.help-heading {
+    text-align: center;
+}
+
+.help-heading h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.help-heading p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.582);
+    margin-top: 25px;
+}
+
+.donation {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.side-1 {
+    display: flex;
+    background-color: rgba(127, 255, 212, 0.349);
+    margin-right: 5px;
+    padding: 30px 25px;
+    height: 152px;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.side-2 {
+    display: flex;
+    background-color: rgba(127, 255, 212, 0.342);
+    margin-left: 5px;
+    padding: 30px 25px;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.fa-brands {
+    font-size: 30px;
+
+}
+
+.text-1 {
+    margin-left: 15px;
+}
+
+.text-2 {
+    margin-left: 15px;
+}
+
+.text-1 h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-2 h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-1 p {
+    margin-top: 15px;
+
+}
+
+.text-2 p {
+    margin-top: 15px;
+}
