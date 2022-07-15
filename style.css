@@ -46,6 +46,12 @@
     background-image: linear-gradient(rgba(3, 3, 85, 0.979), rgba(85, 1, 141, 0.753));
 }
 
+.donate:hover {
+    color: black;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.836), rgba(0, 255, 255, 0.836));
+    transition: 3s;
+}
+
 .main-content {
     display: flex;
     margin-top: 80px;
@@ -150,9 +156,127 @@
 
 .text-1 p {
     margin-top: 15px;
+    text-align: justify;
 
 }
 
 .text-2 p {
     margin-top: 15px;
+    text-align: justify;
+}
+
+.hand-image {
+    margin-top: 100px;
+
+}
+
+.hand {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
+.hand img {
+    border-radius: 6px;
+    margin: 0 15px;
+    width: 25%;
+}
+
+.last-section {
+    margin-top: 120px;
+}
+
+.last-heading {
+    text-align: center;
+}
+
+.last-heading h1 {
+    font-size: 37px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.last-heading p {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.575);
+    margin-top: 20px;
+}
+
+.last-fund {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.fund-1 {
+    height: auto;
+    width: 20%;
+    margin: 0 12px;
+}
+
+.fund-1 img {
+    width: 100%;
+    border-radius: 7px;
+
+}
+
+.last-fund h3,
+p,
+a {
+
+    margin-top: 15px;
+}
+
+.last-fund p {
+    margin-left: 15px;
+}
+
+.last-fund h3 {
+    margin-left: 15px;
+}
+
+.last-fund a {
+    margin-left: 15px;
+}
+
+.last-fund h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.last-fund p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.623);
+    margin-bottom: 25px;
+}
+
+.fund-1 a {
+    font-size: 15px;
+    color: red;
+}
+
+.footer {
+    background-color: black;
+    color: rgba(245, 245, 245, 0.637);
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer h1 {
+    font-size: 30px;
+    color: rgba(224, 12, 12, 0.932);
+    font-weight: 600;
+    margin-top: 50px;
+    padding-top: 25px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.footer p {
+    font-size: 12px;
+    padding-bottom: 20px;
+
 }
